@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sugislug"
+version = "0.1.0"
+description = "Shared Sugi slug/URL contract — derive Sugi Variant page slugs from GENE + HGVS (single source of truth for Variant, Atlas, …)."
+requires-python = ">=3.9"
+dependencies = []          # pure stdlib (hashlib, re) — no runtime deps
+
+[tool.setuptools]
+packages = ["sugislug"]
